@@ -29,7 +29,7 @@ public class CalculatorService {
 
   /** Function to power a number. */
   public double power(double base, double exp) {
-    return base * exp;
+    return Math.pow(base, exp);
   }
 
   /** Function to square a number. */
