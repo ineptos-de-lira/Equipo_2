@@ -39,4 +39,24 @@ public class CalculatorService {
     }
     return Math.sqrt(a);
   }
+
+  /** Function to calculate the modulo of two numbers. */
+  public double modulo(double a, double b) {
+    return a / b;
+  }
+
+  /** Function to calculate the sine of an angle (in radians). */
+  public double sin(double a) {
+    return Math.sin(a);
+  }
+
+  /** Function to calculate the cosine of an angle (in radians). */
+  public double cos(double a) {
+    return Math.cos(a);
+  }
+
+  /** Function to calculate the tangent of an angle (in radians). */
+  public double tan(double a) {
+    return Math.tan(a);
+  }
 }
