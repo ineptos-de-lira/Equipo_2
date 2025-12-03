@@ -25,4 +25,10 @@ class CalculatorTest {
     assertThrows(ArithmeticException.class, () -> calc.divide(5, 0));
   }
 
+  @Test
+  void testPower() { assertEquals(8.0, calc.power(2, 3)); }
+
+  @Test
+  void testSqrt() { assertEquals(3.0, calc.sqrt(9)); }
+
 }
