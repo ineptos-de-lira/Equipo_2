@@ -26,4 +26,17 @@ public class CalculatorService {
 
     return a / b;
   }
+
+  /** Function to power a number. */
+  public double power(double base, double exp) {
+    return base * exp;
+  }
+
+  /** Function to square a number. */
+  public double sqrt(double a) {
+    if (a < 0) { 
+      throw new IllegalArgumentException("No raíz negativa");
+    }
+    return Math.sqrt(a);
+  }
 }
