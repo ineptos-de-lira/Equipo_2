@@ -40,9 +40,9 @@ public class CalculatorService {
     return Math.sqrt(a);
   }
 
-  /** Function to calculate the modulo of two numbers. */
-  public double modulo(double a, double b) {
-    return a / b;
+  /** Function to calculate the module of two numbers. */
+  public double module(double a, double b) {
+    return a % b;
   }
 
   /** Function to calculate the sine of an angle (in radians). */
