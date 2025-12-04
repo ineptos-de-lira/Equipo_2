@@ -8,4 +8,5 @@ Equipo 2
 Ejecutar desde la carpeta raíz, es decir, no dentro de la carpeta calculator, sino desde afuera de la carpeta. Sucede por el "package calculator;" de los archivos.
 
 javac calculator/App.java calculator/CalculatorService.java
+
 java calculator.App
